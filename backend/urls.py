@@ -20,7 +20,7 @@ from rest_framework.routers import DefaultRouter
 from task1 import views
 from task1.views import TaskOneList
 
-router = DefaultRouter()
+router = SimpleRouter()
 router.register('taskone',views.TaskOneList)
 
 urlpatterns = [
