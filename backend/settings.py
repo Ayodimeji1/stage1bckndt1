@@ -84,7 +84,7 @@ DATABASES = {
         'NAME': 'PGDATABASE',
         'USER': 'PGUSER',
         'PASSWORD': 'PGPASSWORD',
-        'HOST': 'PGHOST',
+        'HOST': 'containers-us-west-24.railway.app',
         'PORT': '7627'
 
     }
