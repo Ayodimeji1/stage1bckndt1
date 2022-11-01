@@ -6,6 +6,6 @@ from task1.serializers import TaskOneSerializers
 # Create your views here.
 
 
-class TaskOneList(viewsets.ReadOnlyModelViewSet):
+class TaskOneList(viewsets.ModelViewSet):
     queryset = TaskOne.objects.all()
     serializer_class = TaskOneSerializers
