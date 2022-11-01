@@ -97,8 +97,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'task1_db',
         'USER': 'postgres',
-        'PASSWORD': '$$ayodimeji22',
-        'HOST': 'localhost',
+        'PASSWORD': 'qM4UqSPH8ZPIOGb9xvbF',
+        'HOST': 'containers-us-west-80.railway.app',
+        'PORT': '8039'
 
     }
 }
@@ -137,7 +138,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
+
 STATIC_URL = 'static/'
+
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
