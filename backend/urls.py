@@ -24,6 +24,5 @@ router = DefaultRouter()
 router.register('taskone',views.TaskOneList)
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
     path('', include(router.urls)),
 ]
