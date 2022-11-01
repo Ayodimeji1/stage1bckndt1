@@ -22,13 +22,13 @@ from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 
 from task1 import views
-from task1.views import TaskOneList
 
-router = DefaultRouter()
-router.register(r'taskone',views.TaskOneList)
+
+# router = DefaultRouter()
+# router.register(r'taskone',views.TaskOneList)
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include(router.urls)),
+    path('', views.taskoneView)
 ]
