@@ -21,7 +21,7 @@ from task1 import views
 from task1.views import TaskOneList
 
 router = DefaultRouter()
-router.register('taskone',views.TaskOneList)
+router.register(r'taskone',views.TaskOneList)
 
 urlpatterns = [
     path('', include(router.urls)),
